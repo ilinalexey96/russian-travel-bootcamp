@@ -5,6 +5,10 @@
     margin: 0;
 }
 
+.place__paragraph:nth-child(1){
+    margin-top: 0;
+}
+
 .place__paragraph:nth-child(2) {
     margin: 26px 0 0;
 }
@@ -20,9 +24,7 @@
     .place__paragraph {
         margin: 0 16px 0;
     }
-}
-
-@media screen and (max-width: 320px) {
+    
     .place__paragraph:nth-child(2) {
         margin: 25px 16px 0;
     }
