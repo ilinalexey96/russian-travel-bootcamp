@@ -1,4 +1,9 @@
 .place__paragraphs {
     grid-area: paragraph;
-    margin: 20px 0 0;
+}
+
+@media screen and (max-width: 680px) {
+    .place__paragraphs {
+        margin: 20px 0 0;
+    }
 }
